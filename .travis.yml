@@ -8,3 +8,7 @@ php:
 before_script:
   - composer selfupdate
   - composer install
+
+script:
+ - ./vendor/bin/phpunit tests
+ 
