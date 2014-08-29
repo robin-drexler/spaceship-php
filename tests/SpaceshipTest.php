@@ -27,7 +27,7 @@ class SpaceshipTest extends PHPUnit_Framework_TestCase
     /**
      * @tests
      */
-    public function itReturnsMinusOneWhenSecondValueIsGreater()
+    public function itReturnsMinusOneWhenFirstValueIsSmaller()
     {
         $spaceShip = new Spaceship();
 
