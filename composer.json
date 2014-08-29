@@ -1,0 +1,19 @@
+{
+    "name": "robin-drexler/spaceship",
+    "description": "Spaceship operator substitution class for php",
+    "require-dev": {
+        "phpunit/phpunit": "4.2.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robin Drexler",
+            "email": "drexler.robin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RobinDrexler\\Spaceship\\": "src"
+        }
+    }
+}
